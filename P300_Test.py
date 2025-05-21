@@ -5,20 +5,12 @@ Created on Tue Feb 11 20:37:03 2025
 
 @author: owenanderson
 
-Improved Single-file P300 experiment script using LSL, with enhanced error handling,
+P300 experiment script using LSL, with enhanced error handling,
 logging, precise stimulus timing, and configurable parameters.
   1) Listens to EEG from OpenBCI GUI (LSL).
   2) Presents stimuli & sends LSL markers (PsychoPy) with precise timing.
   3) Merges EEG & markers in real time into a CSV.
-  4) Converts data to BIDS after experiment ends.
-
-Enhancements implemented:
-  • Parameterized merge threshold and polling sleep interval.
-  • Replaced print() with logging for robust, timestamped messages.
-  • Wrapped critical sections with try/except for better error handling.
-  • Implemented flush_remaining() to write leftover data on termination.
-  • Used win.callOnFlip() for more accurate stimulus marker timing.
-  • **Clock correction:** Computes an offset from the EEG inlet and subtracts it from marker timestamps.
+  4) Converts data to BIDS after the experiment ends.
   
 Requirements:
   pip install pylsl psychopy mne mne-bids pandas
