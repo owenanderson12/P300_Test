@@ -1,0 +1,9 @@
+﻿name	type	units	low_cutoff	high_cutoff	description	sampling_frequency	status	status_description
+CH1	EEG	V	0.0	125.0	ElectroEncephaloGram	250.0	good	n/a
+CH2	EEG	V	0.0	125.0	ElectroEncephaloGram	250.0	good	n/a
+CH3	EEG	V	0.0	125.0	ElectroEncephaloGram	250.0	good	n/a
+CH4	EEG	V	0.0	125.0	ElectroEncephaloGram	250.0	good	n/a
+CH5	EEG	V	0.0	125.0	ElectroEncephaloGram	250.0	good	n/a
+CH6	EEG	V	0.0	125.0	ElectroEncephaloGram	250.0	good	n/a
+CH7	EEG	V	0.0	125.0	ElectroEncephaloGram	250.0	good	n/a
+CH8	EEG	V	0.0	125.0	ElectroEncephaloGram	250.0	good	n/a
