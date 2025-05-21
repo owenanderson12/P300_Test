@@ -60,10 +60,6 @@ python preprocess_and_visualize.py --input-dir data/raw --bids-dir bids_dataset 
 
 Raw EEG recordings are stored in `data/raw/` (OpenBCI format) and organized into BIDS under `bids_dataset/`, ensuring compatibility with standard neuroimaging tools. ([github.com](https://github.com/owenanderson12/P300_Test/tree/main))
 
-## License
-
-This project is released under the MIT License. ([github.com](https://github.com/owenanderson12/P300_Test/tree/main))
-
 ## Author
 
-Owen Anderson – Brain–computer interface researcher and project maintainer. ([github.com](https://github.com/owenanderson12/P300_Test/tree/main))
+Owen Anderson – owenanderson2022@gmail.com
